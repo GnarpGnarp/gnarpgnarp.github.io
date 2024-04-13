@@ -39,6 +39,8 @@ ul li a:hover {
     background: rgb(0, 93, 193);
 }
 
+
+
 ul li:hover ul.dropdownmenu {
     display: block;
 }
@@ -48,6 +50,7 @@ h1{
     padding-bottom: 30px;
     background-image: url(../images/backgroundheader.jpg);
     color: rgb(0, 0, 0);
+    
     
 }
 
@@ -74,3 +77,57 @@ footer {
     padding: 3px;
     border:  2px solid black;
 }
+
+#footernav {
+    text-decoration: none;
+}
+
+table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr{
+    background-color: #dddddd;
+  }
+
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffff;
+  display: block;
+  }
+
+  .sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 123, 255);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  
+  #container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .required{
+    font-weight: bold;
+    color: red;
+  }
+
+ 
