@@ -129,3 +129,7 @@ table {
  #fname{margin-left: 15px;}
  #body{margin-left: 50px;}
  #submit{margin-left: 50px;}
+
+ .required{
+    display: inline-block
+ }
